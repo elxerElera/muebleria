@@ -1,0 +1,627 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Muebleria Arnold</title>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Youth Fashion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<!-- start menu -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/simpleCart.min.js"> </script>
+<!-- slide -->
+<script src="js/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: false,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <!-- animation-effect -->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+	<!--<script>
+		$(document).ready(function () {
+
+         $('.modal').modal('show');
+        });
+	</script>-->
+
+<!-- //animation-effect -->
+</head>
+<body>
+
+
+<!--modal -->
+<div class="modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary">Save changes</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--header-->
+<div class="header">
+	<div class="header-top">
+		<div class="container">
+				<div class="col-sm-4 logo animated wow fadeInLeft" data-wow-delay=".5s">
+					<h1><a href="index.html"><span>Muebleria Arnold</span></a></h1>
+				</div>
+			<div class="col-sm-4 world animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="cart box_1">
+						<a href="carrito.html">
+						<h3> <div class="total">
+							<span class="simpleCart_total"></span></div>
+							<img src="images/cart.png" alt=""/></h3>
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">Carrito</a></p>
+
+					</div>
+			</div>
+			<div class="col-sm-2 number animated wow fadeInRight" data-wow-delay=".5s">
+					<span><i class="glyphicon glyphicon-phone"></i>987457895</span>
+					<p>Contactanos</p>
+				</div>
+			<div class="col-sm-2 search animated wow fadeInRight" data-wow-delay=".5s">		
+				<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="head-top">
+			<div class="n-avigation">
+			
+				<nav class="navbar nav_bottom" role="navigation">
+				
+				 <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header nav_2">
+					  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <a class="navbar-brand" href="#"></a>
+				   </div> 
+				   <!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav nav_1">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="productos.html">Productos</a></li>
+							<li><a href="carrito.html">Ver Carrito</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li class="last"><a href="contactos.html">Contactanos</a></li>
+						</ul>
+					 </div><!-- /.navbar-collapse -->
+				  
+				</nav>
+			</div>
+			
+				
+		<div class="clearfix"> </div>
+			<!---pop-up-box---->   
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+				<div class="search-top">
+						<div class="login">
+							<form action="#" method="post">
+								<input type="submit" value="">
+								<input type="text" name="search" value="Type something..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">		
+							
+							</form>
+						</div>
+						<p>	Shopping</p>
+					</div>				
+				</div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>			
+	<!---->		
+		</div>
+	</div>
+</div>
+<!--banner-->
+<div class="banner">
+	<div class="matter-banner">
+	 	<div class="slider">
+	    	<div class="callbacks_container">
+	      		<ul class="rslides" id="slider">
+
+					<div id="myCarousel" class="carousel slide">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item item1 active">
+								<div class="fill" style=" background-color:#48c3af;">
+									<div class="inner-content">
+										<div class="carousel-img">
+											<img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
+										</div>
+										<div class="carousel-desc">
+
+											<h2>Modern Designer Sofa</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item item2">
+								<div class="fill" style="background-color:#b33f4a;">
+									<div class="inner-content">
+										<div class="carousel-img">
+											<img src="http://cdn.homedit.com/wp-content/uploads/2011/08/137CLUB2ST.png" alt="white-sofa" class="img img-responsive" />
+										</div>
+										<div class="carousel-desc">
+
+											<h2>Vintage Style Sofa</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item item3">
+								<div class="fill" style="background-color:#7fc2f4;">
+									<div class="inner-content">
+										<div class="col-md-6">
+
+											<div class="carousel-img">
+												<img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
+											</div>
+										</div>
+
+										<div class="col-md-6 text-left">
+											<div class="carousel-desc">
+
+												<h2>Stylish Sofa</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+	      		</ul>
+	 	 	</div>
+		</div>
+	</div>
+	<div class="clearfix"> </div>
+</div>
+<br><br>
+<!-- model           -->
+<div class="container">
+	<div class="col-lg-12" style="text-align: center">
+		<h>Abierto</h>
+
+	</div>
+
+</div>
+<!--//banner-->
+<!--content-->
+<div class="content">
+	<div class="container">
+		<div class="content-top">
+			<div class="content-top1">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/armario.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Palazzo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$450</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-6 animated wow fadeInDown animated"  data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+					<div class="col-md3">
+						<div class="up-t">
+							<h3>Mueble 50% Descuento</h3>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mueble1.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Pant</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>	
+			<div class="content-top1">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mueble2.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Palazoo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mueble3.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Trouser</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mueble4.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Trouser</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 cmn animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/cama1.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Palazoo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>			
+		</div>
+	</div>
+</div>
+<!--//content-->
+	<div class="con-tp">
+		<div class="container">
+			<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
+				<a href="productos.html">
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><img src="images/ropero.jpg" alt="image" class="img-responsive zoom-img"></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+										<h4>30%offer</h4>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 con-tp-lft animated wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+				<a href="productos.html">
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><img src="images/ropero2.jpg" alt="image" class="img-responsive zoom-img"></div>
+							<div class="info-box">
+								<div class="info-content simpleCart_shelfItem">
+										<h4>45%offer</h4>	
+								</div>
+							</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
+				<a href="productos.html">
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><img src="images/ropero3.jpg" alt="image" class="img-responsive zoom-img"></div>
+							<div class="info-box">
+								<div class="info-content simpleCart_shelfItem">
+										<h4>50%offer</h4>	
+								</div>
+							</div>
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
+			<a href="productos.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><img src="images/silla.jpg" alt="image" class="img-responsive zoom-img"></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>25%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+			<a href="productos.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><img src="images/silla1.jpg" alt="image" class="img-responsive zoom-img"></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>50%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
+			<a href="productos.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><img src="images/silla3.jpg" alt="image" class="img-responsive zoom-img"></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>35%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="c-btm">
+		<div class="content-top1">
+			<div class="container">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mesa.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Trousers</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mesa1.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Formal</a></h3>
+						<div class="price">
+								<h5 class="item_price">$450</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mesa2.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Trousers</a></h3>
+						<div class="price">
+								<h5 class="item_price">$350</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="detalle.html">
+							<img class="img-responsive" src="images/mesa3.jpg" alt="" />
+						</a>
+						<h3><a href="detalle.html">Formal</a></h3>
+						<div class="price">
+								<h5 class="item_price">$400</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>	
+		</div>
+	</div>
+
+<!--//header-->
+<div class="breadcrumbs">
+	<div class="container">
+	</div>
+</div>
+<div class="contact">
+	<div class="container">
+		<h3>Contactanos</h3>
+
+		<div class="contact-grids">
+			<div class="contact-form">
+				<form action="#" method="post">
+					<div class="contact-bottom">
+						<div class="col-md-4 in-contact">
+							<span>Nombre</span>
+							<input type="text" name="name">
+						</div>
+						<div class="col-md-4 in-contact">
+							<span>Email</span>
+							<input type="text" name="email" >
+						</div>
+						<div class="col-md-4 in-contact">
+							<span>Numero de telefono</span>
+							<input type="text" name="phonenumber">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="contact-bottom-top">
+						<span>Mensaje</span>
+						<textarea  name="message"> </textarea>
+					</div>
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+			<div class="address">
+				<div class=" address-more">
+					<h2>Dirección</h2>
+					<div class="col-md-4 address-grid">
+						<i class="glyphicon glyphicon-map-marker"></i>
+						<div class="address1">
+							<p>Partido alto</p>
+							<p>cuadra 4</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 address-grid ">
+						<i class="glyphicon glyphicon-phone"></i>
+						<div class="address1">
+							<p>956478452</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 address-grid ">
+						<i class="glyphicon glyphicon-envelope"></i>
+						<div class="address1">
+							<p><a href="mailto:@example.com"> muebleria@muebleria.com</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//content-->
+<!--map-->
+<div class="map">
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.0969654260199!2d-76.3723971!3d-6.472456099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ba09512ca362e9%3A0x3c48c7c97c17369d!2sJr.+Los+Alpes+441%2C+Tarapoto!5e0!3m2!1ses!2spe!4v1520867045163" width="100%" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+<!--//map-->
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top">
+			<div class="col-md-6 top-footer animated wow fadeInLeft" data-wow-delay=".5s">
+				<h3>Siguenos en nuestras redes sociales</h3>
+				<div class="social-icons">
+					<ul class="social">
+						<li><a href="#"><i></i></a> </li>
+						<li><a href="#"><i class="facebook"></i></a></li>	
+						<li><a href="#"><i class="google"></i> </a></li>
+						<li><a href="#"><i class="linked"></i> </a></li>						
+					</ul>
+						<div class="clearfix"></div>
+				 </div>
+			</div>
+			<div class="col-md-6 top-footer1 animated wow fadeInRight" data-wow-delay=".5s">
+				<h3>Contactanos</h3>
+					<form action="#" method="post">
+						<input type="text" name="email" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<input type="submit" value="SUBSCRIBE">
+					</form>
+			</div>
+			<div class="clearfix"> </div>	
+		</div>	
+	</div>
+		<div class="footer-bottom">
+		<div class="container">
+				<div class="col-md-12 footer-bottom-cate animated wow fadeInLeft" data-wow-delay=".5s">
+					<h6>Categorias</h6>
+					<ul>
+						<li><a href="productos.html">Muebles</a></li>
+						<li><a href="detalle.html">Camas</a></li>
+						<li><a href="men.html">Sillas</a></li>
+						<li><a href="productos.html">Roperos</a></li>
+
+						
+					</ul>
+				</div>
+
+
+				<div class="clearfix"> </div>
+				<p class="footer-class animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"> © 2018 muebleria arnold </p>
+			</div>
+	</div>
+</div>
+<!--footer-->
+
+
+<script src="https://maps.googleapis.com/maps/api"></script>
+</body>
+</html>
